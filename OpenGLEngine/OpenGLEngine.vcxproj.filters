@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{01d7b9b3-21f3-4e80-94f3-fa7729810e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D">
+      <UniqueIdentifier>{95a70766-7761-4b1d-8209-ed2cb4205f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\include">
+      <UniqueIdentifier>{03fff271-d6e9-4452-b01e-7b0b6b8851e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\source">
+      <UniqueIdentifier>{a28a64cc-9ab6-477a-accc-74059e5aacfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\include\OGL3D">
+      <UniqueIdentifier>{2f2721e0-30cf-4475-a77b-d5b42441c631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\source\OGL3D">
+      <UniqueIdentifier>{cabd1e2e-f66d-49fd-88bb-7d540b93b476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\include\OGL3D\Window">
+      <UniqueIdentifier>{eea1f610-f8d7-41b5-bff2-9ed105876899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\source\OGL3D\Window">
+      <UniqueIdentifier>{769513f3-33e5-4205-8578-10e1374ebe23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\include\OGL3D\Game">
+      <UniqueIdentifier>{5376a572-e459-43da-bf49-0d9bf2b98ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL3D\source\OGL3D\Game">
+      <UniqueIdentifier>{533c6f67-c2b3-41c1-9280-4d1345642244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="OWindow.cpp">
+      <Filter>OGL3D\source\OGL3D\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="OGame.cpp">
+      <Filter>OGL3D\source\OGL3D\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OWindow.h">
+      <Filter>OGL3D\include\OGL3D\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="OGame.h">
+      <Filter>OGL3D\include\OGL3D\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
